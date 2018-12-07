@@ -1,9 +1,5 @@
-from flask import Flask
+import os
+from app import create_app
 
 
-app = Flask(__name__)
-
-
-@app.route('/')
-def index():
-    return 'Italo Johnny'
+app = create_app(os.getenv('FLASK_CONFIG') or 'default')
