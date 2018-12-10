@@ -1,0 +1,37 @@
+{% extends "default_base.html" %}
+
+{% block title %}Sobre{% endblock title %}
+
+{% block styles %}
+{{ super()  }}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/about.css') }}">
+{% endblock styles%}
+
+{% block content %}
+<div class="container">
+
+	<div class="row">
+		<div class="col-md-3">
+			<div class="row personal-details">
+				<h2>Italo Johnny</h2>
+				<ul>
+					<li><i class="fas fa-map-marker-alt"></i>Franca, SP</li>
+					<li><i class="fas fa-phone-square"></i>+5516991085414</li>
+					<li><i class="fas fa-envelope"></i><a href="mailto://italojohnnydosanjos@gmail.com">italojohnnydosanjos@gmail.com</a></li>
+					<li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/italojohnny">/italojohnny</a></li>
+					<li><i class="fab fa-github"></i> <a href="https://github.com/italojohnny">/italojohnny</a></li>
+					<li><i class="fab fa-twitter"></i> <a href="https://twitter.com/italojoh">/italojoh</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="col-md-9">
+			<h3>Sobre mim</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur laoreet elit quam, in posuere dui fermentum et. Cras varius mattis tempor. Quisque dictum, neque consectetur semper porttitor, arcu urna euismod risus, sit amet ultrices mauris sem ut erat. Proin elementum pretium hendrerit. Nullam erat erat, varius quis placerat sit amet, dictum vitae arcu. Nulla finibus placerat risus, nec ultrices nibh fringilla ullamcorper. In nunc libero, ultrices vel feugiat id, porta congue magna. Proin vel egestas velit. Cras iaculis, quam a dapibus lobortis, lacus nunc tristique mi, sit amet facilisis neque nunc in velit. Curabitur in erat consequat, vulputate turpis ut, molestie ante. Donec porta bibendum volutpat. Vestibulum dignissim mi in ligula blandit euismod. Fusce pulvinar velit in lorem porta porttitor lacinia in eros. Integer sollicitudin lectus vel libero lobortis, nec pulvinar orci mattis.</p>
+			<p>Morbi maximus enim et ligula feugiat pellentesque. Donec et iaculis dui. Nunc consectetur leo in commodo sodales. Cras at purus a nisl eleifend laoreet. Fusce vitae nunc sapien. Duis sagittis in risus sit amet bibendum. Vestibulum accumsan massa non nisl tempus, sit amet tincidunt augue imperdiet. Quisque est enim, rhoncus sit amet accumsan interdum, blandit vel orci. Vivamus interdum tempus leo, nec pretium leo ultrices et. Praesent imperdiet egestas vulputate. Praesent ornare risus magna. Morbi vel justo dolor. Nulla faucibus ut mauris ut dignissim. Praesent ullamcorper eleifend felis, ut egestas sem fermentum vel. Aenean ac lacus lorem.</p>
+			<p>Integer varius nisi eget rutrum malesuada. Duis ut ante ac magna iaculis porttitor. Morbi sit amet elit ultrices, imperdiet felis a, finibus libero. Nunc viverra finibus accumsan. Integer congue odio tellus, eu sodales dolor tristique sit amet. Nulla sit amet ligula quis nisl fringilla maximus et eget purus. Nulla sed lectus luctus, semper erat placerat, tempor odio. Etiam sed est faucibus, condimentum felis et, laoreet massa. Suspendisse volutpat at tortor ornare eleifend. Ut tincidunt turpis magna, quis auctor nulla tincidunt id. Sed in erat vel ipsum vulputate pretium. Vestibulum aliquam augue at cursus eleifend. Aliquam a ligula nisi. Vivamus at hendrerit lectus.</p>
+		</div>
+
+	</div>
+</div>
+{% endblock content %}

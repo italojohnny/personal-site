@@ -1,0 +1,21 @@
+.fas {
+	margin-right:5px;
+}
+
+p {
+	text-align:justify;
+}
+
+.personal-details {
+	margin:0; padding:0;
+}
+
+.personal-details ul {
+	font-size:12px;
+	display:inline;
+	list-style-type: none;
+}
+
+* {
+	margin:0; padding:0;
+}
