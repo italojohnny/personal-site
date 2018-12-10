@@ -1,1 +1,1 @@
-web: python main.py
+web: export FLASK_CONFIG=production flask run

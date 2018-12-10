@@ -13,6 +13,11 @@ case $1 in
 		flask shell
 		;;
 
+	prod)
+		export FLASK_CONFIG=production
+		flask run
+		;;
+
 	clear)
 		find . -name "__pycache__" -type d -exec rm -rf "{}" +
 		;;
