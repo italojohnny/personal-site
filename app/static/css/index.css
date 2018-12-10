@@ -1,0 +1,17 @@
+#social-media-menu {
+	padding:0; margin:0;
+	text-align:center;
+}
+#social-media-menu ul {
+	padding:0; margin:0;
+	width:100%;
+	list-style-type: none;
+}
+#social-media-menu li {
+	display: inline;
+}
+#social-media-menu a {
+	font-size:32px;
+	color: #323232;
+	margin: 0 5px;
+}
